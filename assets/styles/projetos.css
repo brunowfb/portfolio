@@ -37,6 +37,7 @@ main {
     align-items: center;
     justify-content: space-around;
     flex-flow: row wrap;
+    
 }
 
 
@@ -49,29 +50,26 @@ main {
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.100);
     align-items: center;
     flex-flow: column wrap;
-    padding: 15px;
-    justify-content: space-between;
-    
+    padding: 10px;
+    justify-content: space-around;
+    column-gap: 50px;
 }
 
 .alinhamento {
     
     width: 150px;
     flex-basis: 100px;
+    margin-top: 10px;
     
 }
 
-
 .botao {
-    display: flex;
+    
     background-color:  rgb(39, 71, 255);
     color: white;
-    max-width: 100%;
-    text-align: center;
     border-radius: 5px;
-    align-items: center;
-    justify-content: center;
     padding: 5px;
+    
 }
 
 
