@@ -31,8 +31,8 @@ main {
 
 .projetos {
     display: flex;
-    max-width: 100%;
-    gap: 10px;
+    max-width: 99%;
+    gap: 5px;
     text-align: center;
     align-items: center;
     justify-content: space-around;
@@ -64,7 +64,7 @@ main {
 
 .botao {
     display: flex;
-    background-color: blue;
+    background-color:  rgb(39, 71, 255);
     color: white;
     max-width: 100%;
     text-align: center;
@@ -79,6 +79,16 @@ main {
     flex: auto;
     text-decoration: none;
     color: white;
+}
+
+.botao:hover {
+    background-color: rgb(226, 161, 21);
+    color: black;
     
+}
+.botao > a:hover {
+    color: black;
+    font-weight: bolder;
+
 }
 
